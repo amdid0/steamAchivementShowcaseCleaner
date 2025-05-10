@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "steamAchiventShowcaseCleaner",
+    "version": "1.0",
+    "description": "YES YES",
+    "permissions": ["scripting", "activeTab"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "steamAchiventShowcaseCleaner"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
